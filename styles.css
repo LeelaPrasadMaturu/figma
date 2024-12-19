@@ -77,51 +77,21 @@ header .highlight {
 
 
 
-/* Card Styles */
-.card {
-    width: 150px;
-    height: 150px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.card .icon {
-    margin-bottom: 10px;
-}
-
-.card p {
-    font-size: 16px;
-    color: #1a1a1a;
-    margin: 0;
-}
-
-/* Container for the cards */
 .cards-container {
     display: flex;
     overflow-x: auto;
     gap: 20px;
-    /* Space between cards */
     padding: 10px;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
-    /* Hide scrollbar for Firefox */
 }
 
 .cards-container::-webkit-scrollbar {
     display: none;
-    /* Hide scrollbar for Chrome, Safari */
 }
 
-/* Card Styles */
 .card {
     flex: 0 0 auto;
-    /* Prevent cards from shrinking */
     width: 125px;
     height: 125px;
     background-color: #fff;
@@ -133,12 +103,10 @@ header .highlight {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     scroll-snap-align: center;
-    /* Snap to center */
 }
 
 .card .icon {
     margin-bottom: 10px;
-    margin-left: 0%;
 }
 
 .card p {
@@ -147,7 +115,36 @@ header .highlight {
     margin: 0;
 }
 
+#getting-know-card {
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
 
+#getting-know-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.getting-know-para {
+    margin-top: 10px;
+    background-color: #e9e1e1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+    display: none;
+}
+
+.getting-know-para.hidden {
+    display: none;
+}
+
+.getting-know-para.visible {
+    display: block;
+}
+
+a{
+    color:#ff047c;
+}
 
 
 .map-view-container {
@@ -306,7 +303,7 @@ header .highlight {
     background-color: #FFFFFF;
     border-top: 1px solid #E6E6E6;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px 20px;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
@@ -327,7 +324,14 @@ header .highlight {
     margin-left: 0;
 }
 
-
+.footer-right {
+    margin-left: auto;
+    /* Pushes the element to the right */
+    display: flex;
+    /* Keeps icons horizontally aligned */
+    align-items: center;
+    /* Aligns icons vertically */
+}
 
 
 @media (min-width: 768px) {
