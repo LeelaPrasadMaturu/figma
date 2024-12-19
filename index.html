@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Document</title>
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hey there,<br>here’s Toby’s list</h1>
+        <p class="highlight">See Toby’s notes for you</p>
+    </header>
+    <div class="search-bar">
+        <input type="text" placeholder="Search for experiences">
+        <button>
+            <img src="search.png" alt="Search">
+        </button>
+    </div>
+
+    <br/>
+    <!-- <div class="card">
+        
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#FF007F"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path
+                    d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1 7.8 7.8 7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z">
+                </path>
+            </svg>
+        </div>
+        <p>For you</p>
+        </div>
+    </div> -->
+
+    <div class="cards-container">
+        <div class="card">
+            <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                    stroke="#FF007F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path
+                        d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 1 0-7.8 7.8l1 1 7.8 7.8 7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.8z">
+                    </path>
+                </svg>
+            </div>
+            <p>For you</p>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                    stroke="#FF007F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon
+                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                    </polygon>
+                </svg>
+            </div>
+            <p>Toby's Choice</p>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                    stroke="#FF007F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 16v-4"></path>
+                    <path d="M12 8h.01"></path>
+                </svg>
+            </div>
+            <p>Original from Lisbon</p>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                    stroke="#FF007F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"></path>
+                </svg>
+            </div>
+            <p>Getting to know Lisbon</p>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                    stroke="#FF007F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M14 10h.01"></path>
+                    <path d="M10 10h.01"></path>
+                    <path d="M12 14h.01"></path>
+                </svg>
+            </div>
+            <p>Lisbon Heritage</p>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                    stroke="#FF007F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="8" r="7"></circle>
+                    <line x1="12" y1="15" x2="12" y2="21"></line>
+                    <line x1="9" y1="18" x2="15" y2="18"></line>
+                </svg>
+            </div>
+            <p>Food & Wine</p>
+        </div>
+        <div class="card">
+            <div class="icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
+                    stroke="#FF007F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M3 6h18M3 12h18M3 18h18"></path>
+                </svg>
+            </div>
+            <p>Where to eat</p>
+        </div>
+       
+    </div>
+
+
+    <div class="map-view-container">
+        <label class="toggle-container">
+            <span>Map view</span>
+            <input type="checkbox" class="toggle-switch">
+            <span class="slider"></span>
+        </label>
+        <div class="icon-buttons">
+            <button class="icon-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="#0B1A30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="4" y1="21" x2="4" y2="14"></line>
+                    <line x1="4" y1="10" x2="4" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12" y2="3"></line>
+                    <line x1="20" y1="21" x2="20" y2="16"></line>
+                    <line x1="20" y1="12" x2="20" y2="3"></line>
+                    <line x1="1" y1="14" x2="7" y2="14"></line>
+                    <line x1="9" y1="8" x2="15" y2="8"></line>
+                    <line x1="17" y1="16" x2="23" y2="16"></line>
+                </svg>
+            </button>
+            <button class="icon-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                    stroke="#0B1A30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="12" y1="19" x2="12" y2="5"></line>
+                    <polyline points="5 12 12 5 19 12"></polyline>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    
+    <div class="item-grid">
+    
+        <div class="product-card">
+            <img class="product-image" src="coldfish.svg" alt="Seven ways to eat codfish">
+            <div class="product-details">
+                <!-- <div class="special-pick">TOBY'S CHOICE</div> -->
+                <h2 class="product-title">Seven ways to eat codfish</h2>
+                <div class="price-info">€€ <span class="origin-label">original</span></div>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img class="product-image" src="lisbon-food.svg" alt="Lisbon Small-Group Food Tour">
+            <div class="product-details">
+                <div class="special-pick">TOBY'S CHOICE</div>
+                <h2 class="product-title">Lisbon Small-Group Food Tour with 18 Tastings in Alfama Dis...</h2>
+                <div class="price-info">€€€ <span class="origin-label">original</span></div>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img class="product-image" src="wine.svg" alt="The wine alchemists">
+            <div class="product-details">
+                <div class="special-pick">TOBY'S CHOICE</div>
+                <h2 class="product-title">The wine alchemists</h2>
+                <div class="price-info">€€€ <span class="origin-label">original</span></div>
+            </div>
+        </div>
+    
+        <div class="product-card">
+            <img class="product-image" src="toast.svg" alt="A toast to Fado at Café Luso">
+            <div class="product-details">
+                <div class="special-pick">TOBY'S CHOICE</div>
+                <h2 class="product-title">A toast to Fado at Café Luso</h2>
+                <div class="price-info">€ <span class="origin-label">original</span></div>
+            </div>
+        </div>
+    
+    </div>
+
+
+    <footer class="fixed-footer">
+        <div class="footer-left">
+            <img src="superguide.svg" alt="Super Guide Logo" class="footer-logo">
+        </div>
+        <div class="footer-right">
+            <img src="instagram-icon.svg" alt="Instagram Icon" class="social-icon">
+            <img src="tripadvisor-icon.svg" alt="TripAdvisor Icon" class="social-icon">
+            <img src="turismo-portugal-logo.svg" alt="Turismo de Portugal Logo" class="social-icon">
+        </div>
+    </footer>
+
+</body>
+</html>
