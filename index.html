@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Document</title>
-     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <header>
         <h1>Hey there,<br>here’s Toby’s list</h1>
@@ -19,7 +21,7 @@
         </button>
     </div>
 
-    <br/>
+    <br />
     <!-- <div class="card">
         
         <div class="icon">
@@ -111,7 +113,7 @@
         </div>
         <div class="card">
             <div class="icon">
-               <img src="images/lisbon-heritage.svg">
+                <img src="images/lisbon-heritage.svg">
             </div>
             <p>Lisbon Heritage</p>
         </div>
@@ -119,12 +121,12 @@
 
 
 
-<div class="getting-know-para hidden" id="getting-know-text">
-    <p>
-        Lisbon is known for its charming old neighborhoods, old-fashioned trams, nice food, and rich history.
-        <a href="explore.html">Explore more</a>
-    </p>
-</div>
+    <div class="getting-know-para hidden" id="getting-know-text">
+        <p>
+            Lisbon is known for its charming old neighborhoods, old-fashioned trams, nice food, and rich history.
+            <a href="explore.html">Explore more</a>
+        </p>
+    </div>
 
 
 
@@ -145,46 +147,66 @@
     </div>
 
 
-    
-    <div class="item-grid">
-    
-        <div class="product-card">
-            <img class="product-image" src="images/coldfish.svg" alt="Seven ways to eat codfish">
-            <div class="product-details">
-                <!-- <div class="special-pick">TOBY'S CHOICE</div> -->
-                <h2 class="product-title">Seven ways to eat codfish</h2>
-                <div class="price-info">€€ <span class="origin-label">original</span></div>
+    <div class="unique-card-container">
+        <div class="unique-card">
+            <div class="image-container">
+                <img alt="A plate of codfish garnished with olives and herbs" src="images/coldfish.svg" />
+            </div>
+            <div class="unique-content">
+                <h3>Seven ways to eat codfish</h3>
+                <div class="unique-price">€€</div>
+                <div class="unique-original">
+                    original
+                    <i class="fas fa-user"></i>
+                </div>
             </div>
         </div>
-    
-        <div class="product-card">
-            <img class="product-image" src="images/lisbon-food.svg" alt="Lisbon Small-Group Food Tour">
-            <div class="product-details">
-                <div class="special-pick">TOBY'S CHOICE</div>
-                <h2 class="product-title">Lisbon Small-Group Food Tour with 18 Tastings in Alfama Dis...</h2>
-                <div class="price-info">€€€ <span class="origin-label">original</span></div>
+        <div class="unique-card">
+            <div class="image-container">
+                <img alt="A food tour with various tastings in Alfama District" src="images/wine.svg" />
+            </div>
+            <div class="unique-content">
+                <h3>Lisbon Small-Group Food Tour with 18 Tastings in Alfama Dis...</h3>
+                <div class="unique-price">€€</div>
+                <div class="unique-original">
+                    original
+                    <i class="fas fa-user"></i>
+                </div>
             </div>
         </div>
-    
-        <div class="product-card">
-            <img class="product-image" src="images/wine.svg" alt="The wine alchemists">
-            <div class="product-details">
-                <div class="special-pick">TOBY'S CHOICE</div>
-                <h2 class="product-title">The wine alchemists</h2>
-                <div class="price-info">€€€ <span class="origin-label">original</span></div>
-            </div>
-        </div>
-    
-        <div class="product-card">
-            <img class="product-image" src="images/toast.svg" alt="A toast to Fado at Café Luso">
-            <div class="product-details">
-                <div class="special-pick">TOBY'S CHOICE</div>
-                <h2 class="product-title">A toast to Fado at Café Luso</h2>
-                <div class="price-info">€ <span class="origin-label">original</span></div>
-            </div>
-        </div>
-    
     </div>
+
+    <div class="unique-card-container">
+        <div class="unique-card">
+            <div class="image-container">
+                <img alt="A plate of codfish garnished with olives and herbs" src="images/coldfish.svg" />
+            </div>
+            <div class="unique-content">
+                <h3>Seven ways to eat codfish</h3>
+                <div class="unique-price">€€</div>
+                <div class="unique-original">
+                    original
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+        </div>
+        <div class="unique-card">
+            <div class="image-container">
+                <img alt="A food tour with various tastings in Alfama District" src="images/wine.svg" />
+            </div>
+            <div class="unique-content">
+                <h3>Lisbon Small-Group Food Tour with 18 Tastings in Alfama Dis...</h3>
+                <div class="unique-price">€€</div>
+                <div class="unique-original">
+                    original
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br>
+
 
 
     <footer class="fixed-footer">
@@ -202,4 +224,5 @@
 
     <script src="index.js"></script>
 </body>
+
 </html>
