@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow-y: auto;
+    max-height: calc(100vh - 60px);
+    margin-bottom: 60px;
+
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.back-button i {
+    font-size: 20px;
+    color: #000000;
+}
+
+h1,
+h2,
+.card {
+    margin-left: 0;
+    /* Align with the left edge */
+}
+
+h1 {
+    font-size: 18px;
+    color: #000000;
+    margin: 0 0 20px 0;
+}
+
+h2 {
+    font-size: 16px;
+    color: #000000;
+    margin: 0 0 20px 0;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 328px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    /* Ensures it aligns with the card's width */
+    height: 160px;
+    border-radius: 8px 8px 0 0;
+    opacity: 1;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content p {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+
+.metro-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.metro-info i {
+    margin-right: 10px;
+}
+
+.plan-trip {
+    color: #FF007A;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+}
+
+
+
+.content {
+    padding: 20px;
+    padding-bottom: 100px;
+    /* Ensures there’s space above the footer */
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-top: 1px solid #E6E6E6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    height: 60px;
+    /* Ensure this matches the padding-bottom */
+}
+
+.footer-left .footer-logo {
+    height: 40px;
+}
+
+.footer-right .social-icon {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.footer-right .social-icon:first-child {
+    margin-left: 0;
+}
+
+.footer-right {
+    margin-left: auto;
+    /* Pushes the element to the right */
+    display: flex;
+    /* Keeps icons horizontally aligned */
+    align-items: center;
+    /* Aligns icons vertically */
+}
+

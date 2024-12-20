@@ -147,87 +147,85 @@ a{
 }
 
 
-.map-view-container {
+
+
+.map-container {
     display: flex;
     align-items: center;
-    gap: 96px;
-    font-family: Arial, sans-serif;
-    padding-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    /* background-color: #ffffff; */
+    padding: 10px;
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    width: 95%;
+    justify-content: space-between;
 }
 
 .toggle-container {
     display: flex;
     align-items: center;
-    gap: 8px;
-    position: relative;
-    cursor: pointer;
-    font-size: 14px;
-    color: #0B1A30;
 }
 
-.toggle-container input {
-    display: none;
+.toggle-container label {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #333333;
 }
 
-.toggle-container .slider {
+.toggle-switch {
     position: relative;
-    width: 36px;
+    width: 40px;
     height: 20px;
-    background: #E6E6E6;
+    background-color: #cccccc;
     border-radius: 20px;
-    transition: background 0.3s ease-in-out;
+    cursor: pointer;
 }
 
-.toggle-container .slider:before {
-    content: "";
+.toggle-switch::before {
+    content: '';
     position: absolute;
-    top: 2px;
-    left: 2px;
-    width: 16px;
-    height: 16px;
-    background: #FFFFFF;
+    width: 18px;
+    height: 18px;
+    background-color: #ffffff;
     border-radius: 50%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease-in-out;
+    top: 1px;
+    left: 1px;
+    transition: 0.3s;
 }
 
-.toggle-container input:checked+.slider {
-    background: #0080FF;
+.toggle-switch.active {
+    background-color: #4caf50;
 }
 
-.toggle-container input:checked+.slider:before {
-    transform: translateX(16px);
+.toggle-switch.active::before {
+    left: 21px;
 }
 
 .icon-buttons {
     display: flex;
-    gap: 8px;
+    gap: 10px;
 }
 
-.icon-btn {
-    width: 36px;
-    height: 36px;
+.icon-button {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #FFFFFF;
-    border: 1px solid #E6E6E6;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    transition: box-shadow 0.3s ease-in-out;
+    transition: background-color 0.3s;
 }
 
-.icon-btn:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+.icon-button:hover {
+    background-color: #f0f0f0;
 }
 
-.icon-btn svg {
-    stroke: #0B1A30;
+.icon-button i {
+    color: #333333;
+    font-size: 18px;
 }
-
 
 
 

@@ -3,17 +3,30 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+
     <title>Document</title>
     <link rel="stylesheet" href="explore-style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="image"></div>
-        <div class="gradient"></div>
-        <div class="text">
-            This is Lisbon at its best,<br>let's explore!
+    <div class="bus-container">
+        <img alt="A tram on the streets of Lisbon" class="background-image" height="376" src="images/bus-image.svg"
+            width="360" />
+        <div class="overlay">
+            <div class="back-button">
+                <i class="fas fa-arrow-left">
+                </i>
+            </div>
+            <div class="bus-text">
+                This is Lisbon at it's best,
+                <br />
+                let’s explore!
+            </div>
         </div>
     </div>
 
@@ -34,69 +47,73 @@
         </div>
     </div>
 
-
+    <br>
     <div class="trendy-neighbourds">
         <h4 style="margin-left: 10px;">
             Trendy neighborhoods
         </h4>
-        <img src="images/Map.svg" style="width: 90%;" >
-            <div class="trendy-container">
-                <div class="number">1</div>
-                <div class="trendy-content">
-                    <div class="title">Príncipe Real</div>
-                    <div class="description">Filled with trendy restaurants, grand mansions, tiny antique shops, Moorish kiosks, and
-                        miniature gardens.</div>
-                </div>
-            </div>
-            <hr>
-            <div class="trendy-container">
-                <div class="number">2</div>
-                <div class="trendy-content">
-                    <div class="title">Bairro Alto</div>
-                    <div class="description">Oldest and most traditional neighbourhood, with a great nightlife and festive spirit.</div>
-                </div>
-            </div>
-            <hr>
-            <div class="trendy-container">
-                <div class="number">3</div>
-                <div class="trendy-content">
-                    <div class="title">Chiado</div>
-                    <div class="description">Cultural and commercial district, known for its shopping, historic landmarks, and numerous theatres and museums.</div>
-                </div>
-            </div>
-            <hr>
-
-            <div class="trendy-container">
-                <div class="number">4</div>
-                <div class="trendy-content">
-                    <div class="title">Baixa</div>
-                    <div class="description">Known for its amazing big squares, neoclassical buildings, and commercial streets.</div>
-                </div>
-            </div>
-            <hr>
-            <div class="trendy-container">
-                <div class="number">5</div>
-                <div class="trendy-content">
-                    <div class="title">Alfama</div>
-                    <div class="description">Delightful maze of narrow cobbled streets and traditional houses.</div>
-                </div>
+        <img src="images/Map.svg" style="width: 90%;margin-right: 5%;margin-left: 5%;">
+        <div class="trendy-container">
+            <div class="number">1</div>
+            <div class="trendy-content">
+                <div class="title">Príncipe Real</div>
+                <div class="description">Filled with trendy restaurants, grand mansions, tiny antique shops, Moorish
+                    kiosks, and
+                    miniature gardens.</div>
             </div>
         </div>
+        <hr>
+        <div class="trendy-container">
+            <div class="number">2</div>
+            <div class="trendy-content">
+                <div class="title">Bairro Alto</div>
+                <div class="description">Oldest and most traditional neighbourhood, with a great nightlife and festive
+                    spirit.</div>
+            </div>
+        </div>
+        <hr>
+        <div class="trendy-container">
+            <div class="number">3</div>
+            <div class="trendy-content">
+                <div class="title">Chiado</div>
+                <div class="description">Cultural and commercial district, known for its shopping, historic landmarks,
+                    and numerous theatres and museums.</div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="trendy-container">
+            <div class="number">4</div>
+            <div class="trendy-content">
+                <div class="title">Baixa</div>
+                <div class="description">Known for its amazing big squares, neoclassical buildings, and commercial
+                    streets.</div>
+            </div>
+        </div>
+        <hr>
+        <div class="trendy-container">
+            <div class="number">5</div>
+            <div class="trendy-content">
+                <div class="title">Alfama</div>
+                <div class="description">Delightful maze of narrow cobbled streets and traditional houses.</div>
+            </div>
+        </div>
+    </div>
     </div>
 
     <br>
     <br>
 
-    <div class="did-container">
+    <div class="did-container" style="width: 90%;margin-left: 5%;margin-right: 5%;">
         <div class="title">Did you know?</div>
-        <div class="info-card">
+        <div class="info-card" style="width: 100%">
             <div class="info-card-content">
                 <div class="info-card-text-content">
                     <div class="info-card-title">Local curiosity</div>
                     <div class="info-card-text">Some local curiosities about Lisbon goes here</div>
                 </div>
                 <div class="info-icon">
-                  <img src="images/chat-bot.svg">
+                    <img src="images/chat-bot.svg">
                 </div>
             </div>
             <div class="info-pagination">
@@ -112,12 +129,11 @@
     <br>
 
 
-    <div class="question-container">
+    <div class="question-container" style="width: 90%;margin-left: 5%;margin-right: 5%;">
         <div class="question-header">
             <h1>Useful portuguese jargon</h1>
             <div class="question-icons">
-                <img alt="Icons representing language and alignment" height="50" src="images/language.svg"
-                    width="50" />
+                <img alt="Icons representing language and alignment" height="50" src="images/language.svg" width="50" />
             </div>
         </div>
         <div class="phrase">
@@ -148,15 +164,15 @@
 
     <br>
 
-    <div class="population-container">
+    <div class="population-container" style="width: 90%;margin-left: 5%;margin-right: 5%;">
         <div class="stats">
             <div class="population-card">
-                <div>Population</div>
-                <div>~3M</div>
+                <div style="text-align: start;">Population</div>
+                <div style="text-align: start;">~3M</div>
             </div>
             <div class="population-card">
-                <div>Visitors per year</div>
-                <div>~15.3M</div>
+                <div style="text-align: start;">Visitors per year</div>
+                <div style="text-align: start;">~15.3M</div>
             </div>
         </div>
         <div class="sos-population-card">
@@ -165,10 +181,37 @@
                 <div>112</div>
             </div>
             <div class="sos-icon">
-                <img src = "images/health-cross.svg">
+                <img src="images/health-cross.svg">
             </div>
         </div>
     </div>
+
+<br>
+
+
+    <div class="iconic-container">
+        <div class="iconic-title">
+            Iconic spots
+        </div>
+        <!-- <br> -->
+        <div class="iconic-spots">
+            <img alt="A scenic view of a bridge over a river with a city in the background" height="88"
+                src="https://storage.googleapis.com/a1aa/image/pTnG3XcQTQ6bNFZlZP2P6zla7ZY4NmbBHwPzjr7sNdsA3KfJA.jpg"
+                width="88" />
+            <img alt="A grand archway in a city square with buildings on either side" height="88"
+                src="https://storage.googleapis.com/a1aa/image/NFh0t2hc1drPGFC9l3qyeNnBMNwke1CenfatPQgndWVDwtyPB.jpg"
+                width="88" />
+            <img alt="A colorful street with a yellow tram in a city" height="88"
+                src="https://storage.googleapis.com/a1aa/image/smeRFIEAg1VpfkjTQ8qeQmXtXUpPJxQWM0i0BoRkuIpN4W5nA.jpg"
+                width="88" />
+            <img alt="A historic building with a garden in front of it" height="88"
+                src="https://storage.googleapis.com/a1aa/image/MdLUnR5vp8KeH6HSeW00O8fwijdDVjGOhJZHyDCfAXHTwtyPB.jpg"
+                width="88" />
+        </div>
+    </div>
+
+    
+
 
     <footer class="fixed-footer">
         <div class="footer-left">
@@ -177,9 +220,10 @@
         <div class="footer-right">
             <img src="images/instagram-icon.svg" alt="Instagram Icon" class="social-icon">
             <img src="images/tripadvisor-icon.svg" alt="TripAdvisor Icon" class="social-icon">
-            <img src="images/turismo-portugal-logo.svg" alt="Turismo de Portugal Logo" class="social-icon">
+            <img src="images/turismo-portugal-logo.svg" alt="Turismo de Portugal Logo" class="social-icon" >
         </div>
     </footer>
 
 </body>
+
 </html>
