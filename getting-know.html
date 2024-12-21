@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="getting-know.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
+
 <body>
     <header>
         <h1>Hey there,<br>here’s Toby’s list</h1>
@@ -18,11 +21,11 @@
             <img src="images/search.png" alt="Search" style="padding-right: 20px;">
         </button>
     </div>
-    
-    
-    
+
+
+
     <br />
-    
+
     <div class="cards-container">
         <div class="card">
             <div class="icon">
@@ -57,15 +60,15 @@
             </div>
             <p>Original from Lisbon</p>
         </div>
-    
+
         <div class="card" id="getting-know-card">
             <div class="icon">
                 <img src="images/getting-know.svg" alt="Icon">
             </div>
             <p>Getting to know Lisbon</p>
         </div>
-    
-    
+
+
         <div class="card">
             <div class="icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
@@ -106,12 +109,202 @@
         </div>
     </div>
 
-    <div class="getting-know-para hidden" id="getting-know-text">
-        <p>
-            Lisbon is known for its charming old neighborhoods, old-fashioned trams, nice food, and rich history.
-            <a href="explore.html">Explore more</a>
-        </p>
+
+    <div class="info-box">
+        <div class="info-text">
+            Lisbon is known for its charming old neighborhoods, old-fashioned trams, nice food, and rich history. <a
+                href="explore.html">Explore more</a>
+        </div>
+        <div class="emoji">
+            <!-- <i class="fas fa-grin-stars" style="font-size: 32px; width: 32px; height: 32px;"></i> -->
+            <img src="images/getting-know-emoji.svg" style="font-size: 32px; width: 32px; height: 32px;">
+        </div>
     </div>
 
+
+
+    <div class="map-container">
+        <div class="toggle-container">
+            <label for="map-view-toggle">Map view</label>
+            <div id="map-view-toggle" class="toggle-switch"></div>
+        </div>
+        <div class="icon-buttons">
+            <div class="icon-button">
+                <i class="fas fa-sliders-h"></i>
+            </div>
+            <div class="icon-button">
+                <i class="fas fa-sort-amount-up-alt"></i>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="view-container">
+        <div class="view-header">
+            <h1>
+                Viewpoints
+            </h1>
+            <a href="#">
+                Discover more
+            </a>
+        </div>
+        <div class="view-card-container">
+            <div class="view-card">
+                <div style="position: relative;">
+                    <img alt="View of Miradouro Castelo de São Jorge, a historical site with a stone bench and cityscape in the background"
+                        height="200"
+                        src="https://storage.googleapis.com/a1aa/image/IjI8t0iIh6qLHRskt2X4BfNesf7qkPzceezj3hwhkmibr0nfE.jpg"
+                        width="160" />
+                    <div class="badge">
+                        <i class="fas fa-qrcode">
+                        </i>
+                    </div>
+                    <div class="choice">
+                        TOBY'S CHOICE
+                    </div>
+                </div>
+                <div class="view-card-content">
+                    <h2>
+                        Enjoy Miradouro Castelo de São Jorge, a historical one
+                    </h2>
+                    <p>
+                        free
+                    </p>
+                </div>
+            </div>
+            <div class="view-card">
+                <div style="position: relative;">
+                    <img alt="View of Miradouro da Graça, showing a panoramic view of the city with a clear blue sky"
+                        height="200"
+                        src="https://storage.googleapis.com/a1aa/image/RhAeRNFl6rUKG6gsefwZI9zU3ynVMCA869qN1RlsN3B7K95nA.jpg"
+                        width="160" />
+                    <div class="badge">
+                        <i class="fas fa-qrcode">
+                        </i>
+                    </div>
+                </div>
+                <div class="view-card-content">
+                    <h2>
+                        Check out Miradouro da Graça, the best in town
+                    </h2>
+                    <p>
+                        free
+                    </p>
+                </div>
+            </div>
+            <div class="view-card">
+                <div style="position: relative;">
+                    <img alt="View of a scenic viewpoint with a cityscape in the background" height="200"
+                        src="https://storage.googleapis.com/a1aa/image/Scxt29sp9rKjJpklD2Rbj73jG1cDe4MHGDFOZSwFSOObUf8TA.jpg"
+                        width="160" />
+                    <div class="badge">
+                        <i class="fas fa-qrcode">
+                        </i>
+                    </div>
+                </div>
+                <div class="view-card-content">
+                    <h2>
+                        Discover another beautiful viewpoint
+                    </h2>
+                    <p>
+                        free
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="view-container">
+        <div class="view-header">
+            <h3>
+                Neighbourhoods
+            </h3>
+            <a href="#">
+                Discover more
+            </a>
+        </div>
+        <div class="view-card-container">
+            <div class="view-card">
+                <div style="position: relative;">
+                    <img alt="View of Miradouro Castelo de São Jorge, a historical site with a stone bench and cityscape in the background"
+                        height="200"
+                        src="https://storage.googleapis.com/a1aa/image/IjI8t0iIh6qLHRskt2X4BfNesf7qkPzceezj3hwhkmibr0nfE.jpg"
+                        width="160" />
+                    <div class="badge">
+                        <i class="fas fa-qrcode">
+                        </i>
+                    </div>
+                    <div class="choice">
+                        TOBY'S CHOICE
+                    </div>
+                </div>
+                <div class="view-card-content">
+                    <h2>
+                        Enjoy Miradouro Castelo de São Jorge, a historical one
+                    </h2>
+                    <p>
+                        free
+                    </p>
+                </div>
+            </div>
+            <div class="view-card">
+                <div style="position: relative;">
+                    <img alt="View of Miradouro da Graça, showing a panoramic view of the city with a clear blue sky"
+                        height="200"
+                        src="https://storage.googleapis.com/a1aa/image/RhAeRNFl6rUKG6gsefwZI9zU3ynVMCA869qN1RlsN3B7K95nA.jpg"
+                        width="160" />
+                    <div class="badge">
+                        <i class="fas fa-qrcode">
+                        </i>
+                    </div>
+                </div>
+                <div class="view-card-content">
+                    <h2>
+                        Check out Miradouro da Graça, the best in town
+                    </h2>
+                    <p>
+                        free
+                    </p>
+                </div>
+            </div>
+            <div class="view-card">
+                <div style="position: relative;">
+                    <img alt="View of a scenic viewpoint with a cityscape in the background" height="200"
+                        src="https://storage.googleapis.com/a1aa/image/Scxt29sp9rKjJpklD2Rbj73jG1cDe4MHGDFOZSwFSOObUf8TA.jpg"
+                        width="160" />
+                    <div class="badge">
+                        <i class="fas fa-qrcode">
+                        </i>
+                    </div>
+                </div>
+                <div class="view-card-content">
+                    <h2>
+                        Discover another beautiful viewpoint
+                    </h2>
+                    <p>
+                        free
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="fixed-footer">
+        <div class="footer-left">
+            <img src="images/SuperGuide.svg" alt="Super Guide Logo" class="footer-logo">
+        </div>
+        <div class="footer-right">
+            <img src="images/instagram-icon.svg" alt="Instagram Icon" class="social-icon">
+            <img src="images/tripadvisor-icon.svg" alt="TripAdvisor Icon" class="social-icon">
+            <img src="images/turismo-portugal-logo.svg" alt="Turismo de Portugal Logo" class="social-icon">
+        </div>
+    </footer>
+
 </body>
+
 </html>

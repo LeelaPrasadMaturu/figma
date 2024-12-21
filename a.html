@@ -1,0 +1,200 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Viewpoints
+    </title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        .header a {
+            color: #ff007f;
+            font-size: 16px;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .card-container {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+
+        .card-container::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .card-container::-webkit-scrollbar-thumb {
+            background-color: #ccc;
+            border-radius: 4px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 160px;
+            display: inline-block;
+            position: relative;
+            flex-shrink: 0;
+        }
+
+        .card img {
+            width: 160px;
+            height: auto;
+        }
+
+        .card .badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #ff007f;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+
+        .card .choice {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background-color: #3b5998;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+        }
+
+        .card-content {
+            padding: 15px;
+            position: relative;
+            height: 100px;
+            /* Adjust height as needed */
+        }
+
+        .card-content h2 {
+            font-size: 14px;
+            font-weight: 500;
+            margin: 0 0 10px;
+            white-space: normal;
+        }
+
+        .card-content p {
+            font-size: 14px;
+            color: #888;
+            margin: 0;
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>
+                Viewpoints
+            </h1>
+            <a href="#">
+                Discover more
+            </a>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div style="position: relative;">
+                    <img alt="View of Miradouro Castelo de São Jorge, a historical site with a stone bench and cityscape in the background"
+                        height="200"
+                        src="https://storage.googleapis.com/a1aa/image/IjI8t0iIh6qLHRskt2X4BfNesf7qkPzceezj3hwhkmibr0nfE.jpg"
+                        width="160" />
+                    <div class="badge">
+                        <i class="fas fa-qrcode">
+                        </i>
+                    </div>
+                    <!-- <div class="choice">
+                        TOBY'S CHOICE
+                    </div> -->
+                </div>
+                <div class="card-content">
+                    <h2>
+                        Enjoy Miradouro Castelo de São Jorge, a historical one
+                    </h2>
+                    <p>
+                        free
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div style="position: relative;">
+                    <img alt="View of Miradouro da Graça, showing a panoramic view of the city with a clear blue sky"
+                        height="200"
+                        src="https://storage.googleapis.com/a1aa/image/RhAeRNFl6rUKG6gsefwZI9zU3ynVMCA869qN1RlsN3B7K95nA.jpg"
+                        width="160" />
+                    <div class="badge">
+                        <i class="fas fa-qrcode">
+                        </i>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h2>
+                        Check out Miradouro da Graça, the best in town
+                    </h2>
+                    <p>
+                        free
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <div style="position: relative;">
+                    <img alt="View of a scenic viewpoint with a cityscape in the background" height="200"
+                        src="https://storage.googleapis.com/a1aa/image/Scxt29sp9rKjJpklD2Rbj73jG1cDe4MHGDFOZSwFSOObUf8TA.jpg"
+                        width="160" />
+                    <div class="badge">
+                        <i class="fas fa-qrcode">
+                        </i>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h2>
+                        Discover another beautiful viewpoint
+                    </h2>
+                    <p>
+                        free
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
