@@ -383,7 +383,6 @@ a{
     background-color: #FFFFFF;
     border-top: 1px solid #E6E6E6;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     padding: 10px 20px;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
@@ -391,9 +390,14 @@ a{
     height: 60px;
 }
 
+.footer-left {
+    position: relative;
+    left: 5%;
+    /* Positions the logo 5% from the left of the screen */
+}
+
 .footer-left .footer-logo {
     height: 40px;
-    margin-right: 40px;
 }
 
 .footer-right .social-icon {
@@ -406,9 +410,11 @@ a{
 }
 
 .footer-right {
-    margin-left: 10px;
     display: flex;
     align-items: center;
+    margin-right: 5%;
+    margin-left:auto;
+
 }
 
 

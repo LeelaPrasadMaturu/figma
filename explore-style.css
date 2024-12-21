@@ -445,6 +445,54 @@ hr {
 
 
 
+ h1 {
+     font-size: 24px;
+     color: #1a1a1a;
+     margin-left: 10px;
+ }
+
+.move-container {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.move-container::-webkit-scrollbar {
+    height: 8px;
+    
+}
+
+.move-container::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.move-container::-webkit-scrollbar-track {
+    background: #f0f0f0;
+}
+ .move-card {
+     width: 88px;
+     height: 88px;
+     border-radius: 0px 0px 8px 8px;
+     overflow: hidden;
+     flex: 0 0 auto;
+     padding: 0;
+ }
+
+.move-card img {
+    display: block;
+    /* Prevent inline rendering behavior */
+    width: 88px;
+    height: 88px;
+    object-fit: cover;
+}
+
+
+
 
 .content {
     padding: 20px;
